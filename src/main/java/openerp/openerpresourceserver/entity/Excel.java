@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Date;
 @Entity
 @Table(name = "moa_citizens")
-public class Citizen {
+public class Excel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer userId;
